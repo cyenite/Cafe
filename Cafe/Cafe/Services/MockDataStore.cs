@@ -15,12 +15,12 @@ namespace Cafe.Services
             items = new List<Item>();
             var mockItems = new List<Item>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Black coffee", Description="50/=" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Ommelete", Description="30/=" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Tea", Description="50/=" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Pilau", Description="80/=" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Chips", Description="110/=" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Chicken 1/4", Description="240/=" },
             };
 
             foreach (var item in mockItems)
